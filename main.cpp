@@ -16,9 +16,9 @@ struct Location {
 };
 
 // Each node stores one product, its location, and a pointer to the next node.
-struct Node {
+struct ProductNode {
     Product product;
     Location location;
     Node* next;
 }; 
-Node *head = NULL, *tail = NULL;
+ProductNode *head = NULL, *tail = NULL;
